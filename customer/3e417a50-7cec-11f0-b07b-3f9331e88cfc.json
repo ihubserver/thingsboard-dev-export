@@ -1,0 +1,167 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : null,
+    "address" : "17, boulevard Albert",
+    "address2" : null,
+    "city" : "Berlin",
+    "country" : "Germany",
+    "customMenuId" : null,
+    "customerId" : null,
+    "email" : "merri.dixon@thingsboard.io",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "3e417a50-7cec-11f0-b07b-3f9331e88cfc"
+    },
+    "name" : "Water Metering Customer A",
+    "ownerId" : null,
+    "parentCustomerId" : null,
+    "phone" : null,
+    "state" : null,
+    "title" : "Water Metering Customer A",
+    "zip" : "98000"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "3e417a50-7cec-11f0-b07b-3f9331e88cfc"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "3e6974b0-7cec-11f0-b07b-3f9331e88cfc"
+    },
+    "type" : "Owns",
+    "typeGroup" : "COMMON",
+    "version" : 301
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "3e417a50-7cec-11f0-b07b-3f9331e88cfc"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "3e9b5a20-7cec-11f0-b07b-3f9331e88cfc"
+    },
+    "type" : "Owns",
+    "typeGroup" : "COMMON",
+    "version" : 302
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cDailyConsumptionAlarmEnabled",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cDailyConsumptionThreshold",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : 100,
+      "strValue" : null
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cLowTempAlarmEnabled",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cLowTempThreshold",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : 19,
+      "strValue" : null
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cWeeklyConsumptionAlarmEnabled",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cWeeklyConsumptionThreshold",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : 500,
+      "strValue" : null
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "dailyConsumptionEmailEnabled",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "dailyConsumptionSmsEnabled",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "firstName",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : null,
+      "strValue" : "Merri"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastName",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : null,
+      "strValue" : "Dixon"
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lowTempEmailEnabled",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lowTempSmsEnabled",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "weeklyConsumptionEmailEnabled",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "weeklyConsumptionSmsEnabled",
+      "lastUpdateTs" : 1755601454767,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}
